@@ -82,6 +82,10 @@ and use it:
 
     const jexl = require('jexl')
 
+or just include in browser :
+
+    <script src="./node_modules/jexl/dist/jexl.min.js?v1"></script> 
+
 ## Async vs Sync: Which to use
 
 There is little performance difference between `eval` and `evalSync`. The functional
